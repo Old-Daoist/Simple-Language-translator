@@ -1,0 +1,18 @@
+-- Create translations table
+CREATE TABLE translations (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    source_text VARCHAR(255),
+    source_language VARCHAR(50),
+    target_language VARCHAR(50),
+    translated_text TEXT
+);
+
+-- Insert translation data
+INSERT INTO translations (source_text, source_language, target_language, translated_text)
+VALUES 
+    ('good morning', 'English', 'Lotha', 'enya mongkhum'),
+    ('good morning', 'English', 'Rongmei', 'lathoung gaidai'),
+    ('good evening', 'English', 'Lotha', 'mmyu mongkhum'),
+    ('good evening', 'English', 'Rongmei', 'tingjin gaidai'),
+    ('bad', 'English', 'Lotha', 'unmhon'),
+    ('bad', 'English', 'Rongmei', 'shi ae');
