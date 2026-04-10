@@ -1,6 +1,6 @@
 from pathlib import Path
 from tkinter import Tk, Text, Button, PhotoImage, Frame, Label
-from tkinter.ttk import Combobox
+from tkinter.ttk import Combo
 
 OUTPUT_PATH = Path(__file__).parent
 ASSETS_PATH = OUTPUT_PATH / Path(r"D:\Projects\HUANMIKO\Translator 2.0\build\assets\frame0")
